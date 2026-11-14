@@ -1,0 +1,20 @@
+{
+  "name": "Пример Inbox (координаты как на 2.png)",
+  "borehole_patterns": [
+    "(?:\\b(?:скважина|скв\\.?)\\s*(?:№\\s*)?|\\bс\\s*[-№]\\s*)([a-zа-я]*\\d{1,12})",
+    "(?:bh|borehole)[\\s\\-№_]*([a-zа-я]*\\d{1,12})"
+  ],
+  "heading_patterns": [
+    "(?:скважина|скв\\.?|буровая|bh|borehole)\\s*(?:№\\s*)?([a-zа-я\\-]*\\d{1,12})"
+  ],
+  "layer_hints": ["скваж", "well", "borehole"],
+  "coordinate": {
+    "angle_deg": 5.6047574159426805,
+    "origin_x": 2163256.877786139,
+    "origin_y": 485354.0431351651,
+    "scale": 1.0,
+    "grid_round": 10.0
+  },
+  "strip_common_id_prefix": true,
+  "max_label_distance": 80.0
+}
